@@ -1,1 +1,1 @@
-github.com/mizantropich/posmotri_v_okno
+https://github.com/mizantropich/posmotri_v_okno
