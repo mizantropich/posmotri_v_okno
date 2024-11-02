@@ -216,7 +216,7 @@ ol {
 	position: relative;
 	min-height: 300px;
 	max-height: 298px;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 .content__list-item:not(:last-of-type) {
@@ -256,12 +256,16 @@ ol {
 }
 
 .content__video-card-title {
+	max-width: 200px;
 	margin-bottom: 6px;
+	overflow: hidden;
 	font-family: "Oswald", sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 	line-height: 1;
 	text-transform: uppercase;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .content__video-card-description-container {
